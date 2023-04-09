@@ -661,10 +661,6 @@ body {
 	content: "04"
 }
 
-.side-nav li:nth-child(5)::before {
-	content: "05"
-}
-
 .side-nav li.is-active {
 	color: #0f33ff;
 	-webkit-transition: color .4s ease-in-out;
@@ -1444,13 +1440,13 @@ body {
 
 .contact--lockup .modal--options li:nth-child(3) {
 	margin-bottom: 10;
-	background-color: #0f33ff;
+	background-color: #da4d93;
 	text-transform: uppercase
 }
 
 .contact--lockup .modal--options li:nth-child(4) {
 	margin-bottom: 0;
-	background-color: #0f33ff;
+	background-color: #6276e8;
 	text-transform: uppercase
 }
 
@@ -1889,9 +1885,4 @@ body {
 .outer-nav li.is-vis:nth-child(4) {
 	-webkit-transition-delay: .12s;
 	transition-delay: .12s
-}
-
-.outer-nav li.is-vis:nth-child(5) {
-	-webkit-transition-delay: .16s;
-	transition-delay: .16s
 }
